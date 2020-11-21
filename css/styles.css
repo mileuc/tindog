@@ -1,0 +1,227 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Section by Color */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color:#fff;
+}
+
+/* Title Section */
+#title {
+    text-align: left; 
+}
+
+#title .container-fluid {
+    padding: 3% 15% 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 14px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+.title-image {
+    right: 18%;
+    transform: rotate(20deg);
+    width: 65%; /* 100% of the div class="col-lg-6" */
+    position: absolute;
+}
+
+/* Non-Brand Font Awesome Icons */
+/* i.fas {
+    color: #ef8172; 
+    font-size: 3.5rem;
+    transition-duration: 0.4s;
+}
+
+i.fas:hover {
+    color: #ff4c68; 
+    font-size: 3.5rem;
+    transition-duration: 0.4s;
+}
+
+.feature-box {
+    margin: 6rem auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+p {
+    color: #8f8f8f;
+} */
+
+/* Features Section*/
+#features {
+    position: relative;
+}
+
+.feature-box {
+    padding: 3.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition-duration: 0.4s;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px; 
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.plan-name {
+    font-size: 1.25rem;
+    margin: 8px auto;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin: 5% 1.5% 0;
+}
+
+/* Footer */
+.social-icon {
+    color: #ff4c68;
+    opacity: 0.7;
+    padding: 0 1% 0;
+    transition-duration: 0.4s;
+}
+
+.social-icon:hover {
+    opacity: 1;
+    -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
+    drop-shadow(-1px -1px 0 #fce38a);
+    filter: drop-shadow(1px 1px 0 #fce38a) 
+    drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding-top: 1.5%;
+}
+
+/* Media Query - Title Section */
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
